@@ -1,0 +1,16 @@
+* {
+    background-color: aliceblue;
+}
+
+#sidebar {
+    margin-left: 25%;
+    width: 25%;
+    outline: black 3px;
+    outline-style: inset;
+
+}
+
+footer {
+    margin-bottom: 25%;
+    background-color: blanchedalmond;
+}
