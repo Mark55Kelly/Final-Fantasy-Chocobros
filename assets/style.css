@@ -2,15 +2,22 @@
     background-color: aliceblue;
 }
 
+footer {
+    margin-bottom: 25%;
+    background-color: blanchedalmond;
+}
+
+.landing {
+    visibility: visible;
+}
+
+.results {
+    visibility: hidden;
+}
 #sidebar {
     margin-left: 25%;
     width: 25%;
     outline: black 3px;
     outline-style: inset;
 
-}
-
-footer {
-    margin-bottom: 25%;
-    background-color: blanchedalmond;
 }
