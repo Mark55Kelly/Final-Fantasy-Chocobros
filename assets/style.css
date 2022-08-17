@@ -11,9 +11,9 @@ footer {
     visibility: visible;
 }
 
-.results {
-    visibility: hidden;
-}
+/* .results {
+     visibility: hidden;
+} */
 #sidebar {
     margin-left: 25%;
     width: 25%;
