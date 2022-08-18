@@ -1,23 +1,65 @@
-* {
-    background-color: aliceblue;
+
+header {
+    z-index: 2;
+    height: 10%;
 }
 
 footer {
-    margin-bottom: 25%;
-    background-color: blanchedalmond;
+    text-align: center;
+    position: relative;
+    background-color: grey;
 }
+
 
 .landing {
     visibility: visible;
 }
 
+#woogleLogo {
+    height: 100px;
+    width: 300px;
+}
+
+#yoMamaCard {
+    text-align: center;
+}
+
+#yoMamaJoke {
+    cursor: pointer;
+}
+
+#gameTitle{
+    margin-top: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#gameDesc {
+   
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#wikiText {
+   
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#sidebar {
+    background-color: grey;
+    z-index: 3;
+}
+
+#videoPlayer {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    z-index: 4;
+    height: 100px;
+    width: 200px;
+}
 /* .results {
      visibility: hidden;
 } */
-#sidebar {
-    margin-left: 25%;
-    width: 25%;
-    outline: black 3px;
-    outline-style: inset;
 
-}
