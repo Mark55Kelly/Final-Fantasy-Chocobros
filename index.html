@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Document</title>
 </head>
@@ -15,44 +16,45 @@
     </div>
 
     <!-- then replace with this -->
-    <div class="results">
-        <!-- 🤴 header is logo made wider and yo mama joke api on right side -->
-        <header>
-            <div>
-                <img id = "woogleLogo" href="" alt="">
-            </div>
-            <div class = "yoMama card">
-                <h3 class = "card-head">Yo Mama Jokes</h3>
-                <!-- <label></label> -->
-                <!-- you hit the quote like a button and it randomizes -->
-                <button> 
-                    <input  id="yoMama joke" type="text"/>
-                </button>
-            </div>
-        </header>
 
-        <!-- 🍻side bar -->
-        <div id = "sidebar">
-            <button id="FF1">Final Fantasy 01</button>
-            <button id="FF2">Final Fantasy 02</button>
-            <button id="FF3">Final Fantasy 03</button>
-            <button id="FF4">Final Fantasy 04</button>
-            <button id="FF5">Final Fantasy 05</button>
-            <button id="FF6">Final Fantasy 06</button>
-            <button id="FF7">Final Fantasy 07</button>
-            <button id="FF8">Final Fantasy 08</button>
-            <button id="FF9">Final Fantasy 09</button>
-            <button id="FF10">Final Fantasy 10</button>
-            <button id="FF102">Final Fantasy 10-2</button>
-            <button id="FF12">Final Fantasy 12</button>
-            <button id="FF13">Final Fantasy 13</button>
-            <button id="FF132">Final Fantasy 13-2</button>
-            <button id="FF15">Final Fantasy 15</button>
-            <button id="FFBex">Final Fantasy Brave Exvius</button>
+    <!-- 🤴 header is logo made wider and yo mama joke api on right side -->
+    <header class="w3-bar w3-top w3-border w3-black">
+        <div>
+            <img class="w3-bar-item w3-round" id="woogleLogo" src="./assets/Woogle Logo.png" alt="Welcome to Woogle!">
         </div>
 
+        <div class="w3-bar-item w3-display-right" id="yoMamaCard">
+            <h3>Yo Mama Joke Button</h3>
+            <div>
+                <p id="yoMamaJoke">Click Me!</p>
+            </div>
+        </div>
+
+    </header>
+
+     <!-- 🍻side bar -->
+     <aside class="w3-sidebar w3-bar-block w3-container w3-cell w3-cell-top" style="width:17%" id = "sidebar">
+        <button class= "w3-bar-item w3-button" id="FF1">Final Fantasy 01</button>
+        <button class= "w3-bar-item w3-button" id="FF2">Final Fantasy 02</button>
+        <button class= "w3-bar-item w3-button" id="FF3">Final Fantasy 03</button>
+        <button class= "w3-bar-item w3-button" id="FF4">Final Fantasy 04</button>
+        <button class= "w3-bar-item w3-button" id="FF5">Final Fantasy 05</button>
+        <button class= "w3-bar-item w3-button" id="FF6">Final Fantasy 06</button>
+        <button class= "w3-bar-item w3-button" id="FF7">Final Fantasy 07</button>
+        <button class= "w3-bar-item w3-button" id="FF8">Final Fantasy 08</button>
+        <button class= "w3-bar-item w3-button" id="FF9">Final Fantasy 09</button>
+        <button class= "w3-bar-item w3-button" id="FF10">Final Fantasy 10</button>
+        <button class= "w3-bar-item w3-button" id="FF102">Final Fantasy 10-2</button>
+        <button class= "w3-bar-item w3-button" id="FF12">Final Fantasy 12</button>
+        <button class= "w3-bar-item w3-button" id="FF13">Final Fantasy 13</button>
+        <button class= "w3-bar-item w3-button" id="FF132">Final Fantasy 13-2</button>
+        <button class= "w3-bar-item w3-button" id="FF15">Final Fantasy 15</button>
+        <button class= "w3-bar-item w3-button" id="FFBex">Final Fantasy Brave Exvius</button>
+     </aside>
+
+    <div class="w3-container w3-cell-row w3-display-right results">
         <!-- 💪 body -->
-        <div>
+        <div class="w3-container w3-cell w3-padding-64" id="textBody">
             <h3 id="gameTitle">
                title 
             </h3>
@@ -64,14 +66,17 @@
             <p id="wikiText">
                 A direct sequel to the 2009 role-playing game Final Fantasy XIII and is part of the Fabula Nova Crystallis subseries. A port to Microsoft Windows was released on Steam in December 2014 followed by iOS and Android in September 2015. XIII-2 includes modified features from the previous game, including fast-paced combat and a customizable \"Paradigm\" system to control which abilities are used by the characters, and adds a new system that allows monsters to be captured and used in battle. It features a heavy time travel element, allowing the player to jump between different times at the same location or different places at the same time. Lightning, the protagonist of the original game, has disappeared into an unknown world. Her younger sister Serah Farron, a returning character, and a young man named Noel Kreiss, journey through time in an attempt to find Lightning.\r\n\r\nDevelopment of Final Fantasy XIII-2 began around March and April 2010 and lasted about one and a half years. The game was unveiled at the Square Enix 1st Production Department Premier in January 2011. Many of the key designers remained in their roles from the previous game, and developer tri-Ace was hired to help with the game's design, art, and programming.
             </p>
+            <footer class="w3-container">Made with 🐤 by The Chocobros</footer>
         </div>
     </div>
-    <div id="videoPlayer">
+
+    <div class="w3-panel w3-blue w3-round-xlarge" id="videoPlayer">
 <!-- float and fixed position -->
 <!-- manipulate z=1 -->
     </div>
 
-    <footer>Made with 🐤 by The Chocobros</footer>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/script.js"></script>
 </body>
