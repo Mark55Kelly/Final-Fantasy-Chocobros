@@ -2,11 +2,14 @@
 header {
     z-index: 2;
     height: 10%;
+    margin-bottom: 25%;
 }
 
 footer {
     text-align: center;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     background-color: grey;
 }
 
@@ -29,9 +32,15 @@ footer {
 }
 
 #gameTitle{
-    margin-top: 25%;
     margin-left: 20%;
-    margin-right: 20%;
+}
+
+#platform {
+    margin-left: 20%;
+}
+
+#relDt {
+    margin-left: 20%;
 }
 
 #gameDesc {
@@ -49,6 +58,7 @@ footer {
 #sidebar {
     background-color: grey;
     z-index: 3;
+    text-align: center;
 }
 
 #videoPlayer {
@@ -63,3 +73,32 @@ footer {
      visibility: hidden;
 } */
 
+/*#textBody {
+    padding: 20px;
+    background-image: url("Final\ Fantasy\ 1.jpg"); opacity: 0.2;
+    font-weight: bolder;
+}*/
+button {
+    border-style: ridge black;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer; 
+}
+
+aside {
+    display: flex;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 750px) {
+aside, main, section {
+    flex-direction: column;
+}
+
+}
