@@ -34,29 +34,28 @@
 
      <!-- 🍻side bar -->
      <aside class="w3-sidebar w3-bar-block w3-container w3-cell w3-cell-top" style="width:17%" id = "sidebar">
-        <button class= "w3-bar-item w3-button" id="FF1">Final Fantasy 01</button>
-        <button class= "w3-bar-item w3-button" id="FF2">Final Fantasy 02</button>
-        <button class= "w3-bar-item w3-button" id="FF3">Final Fantasy 03</button>
-        <button class= "w3-bar-item w3-button" id="FF4">Final Fantasy 04</button>
-        <button class= "w3-bar-item w3-button" id="FF5">Final Fantasy 05</button>
-        <button class= "w3-bar-item w3-button" id="FF6">Final Fantasy 06</button>
-        <button class= "w3-bar-item w3-button" id="FF7">Final Fantasy 07</button>
-        <button class= "w3-bar-item w3-button" id="FF8">Final Fantasy 08</button>
-        <button class= "w3-bar-item w3-button" id="FF9">Final Fantasy 09</button>
-        <button class= "w3-bar-item w3-button" id="FF10">Final Fantasy 10</button>
-        <button class= "w3-bar-item w3-button" id="FF102">Final Fantasy 10-2</button>
-        <button class= "w3-bar-item w3-button" id="FF12">Final Fantasy 12</button>
-        <button class= "w3-bar-item w3-button" id="FF13">Final Fantasy 13</button>
-        <button class= "w3-bar-item w3-button" id="FF132">Final Fantasy 13-2</button>
-        <button class= "w3-bar-item w3-button" id="FF15">Final Fantasy 15</button>
-        <button class= "w3-bar-item w3-button" id="FFBex">Final Fantasy Brave Exvius</button>
+        <button id="FF1">Final Fantasy 01</button>
+        <button id="FF2">Final Fantasy 02</button>
+        <button id="FF3">Final Fantasy 03</button>
+        <button id="FF4">Final Fantasy 04</button>
+        <button id="FF5">Final Fantasy 05</button>
+        <button id="FF6">Final Fantasy 06</button>
+        <button id="FF7">Final Fantasy 07</button>
+        <button id="FF8">Final Fantasy 08</button>
+        <button id="FF9">Final Fantasy 09</button>
+        <button id="FF10">Final Fantasy 10</button>
+        <button id="FF102">Final Fantasy 10-2</button>
+        <button id="FF12">Final Fantasy 12</button>
+        <button id="FF13">Final Fantasy 13</button>
+        <button id="FF132">Final Fantasy 13-2</button>
+        <button id="FF15">Final Fantasy 15</button>
+        <button id="FFBex">Final Fantasy Brave Exvius</button>
      </aside>
 
-    <div class="w3-container w3-cell-row w3-display-right results">
+    <main class="w3-container w3-cell-row w3-display-right results">
         <!-- 💪 body -->
-        <div class="w3-container w3-cell w3-padding-64" id="textBody">
-            <h3 id="gameTitle">
-               title 
+        <section class="w3-container w3-cell w3-padding-64" id="textBody">
+            <h3 id="gameTitle"> 
             </h3>
             <!--platform--> 
             <div id="platform"></div>  
@@ -64,18 +63,23 @@
             <div id="relDt"></div>
             <p id="gameDesc"></p>
             <p id="wikiText"></p>
-            <footer class="w3-container">Made with 🐤 by The Chocobros</footer>
+        
         </div>
-    </div>
+    </main>
 
     <div class="w3-panel w3-blue w3-round-xlarge" id="videoPlayer">
+        
 <!-- float and fixed position -->
 <!-- manipulate z=1 -->
     </div>
+    <div>
+        <footer class="w3-container">Made with 🐤 by The Chocobros</footer>
+    </div> 
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/script.js"></script>
+    
 </body>
 </html>

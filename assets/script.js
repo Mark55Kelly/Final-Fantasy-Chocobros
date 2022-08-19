@@ -30,6 +30,7 @@ function FF1() {
     clearPage();
     apiCall(uid);
     mediaCall(gameArr);
+
 }
 function FF2() {
     var uid = "9dcce46c-7779-4096-399a-08d6b0a627a3";
