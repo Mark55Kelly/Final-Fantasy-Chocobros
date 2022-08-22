@@ -33,26 +33,35 @@ footer {
 
 #gameTitle{
     margin-left: 20%;
+    background-color: white;
+    display: inline-flex;
 }
 
 #platform {
     margin-left: 20%;
+    background-color: white;
+    /* display: inline-table; */
 }
 
 #relDt {
     margin-left: 20%;
+    background-color: white;
+    /* display: block; */
 }
 
 #gameDesc {
    
     margin-left: 20%;
     margin-right: 20%;
+    background-color: white;
 }
 
 #wikiText {
    
     margin-left: 20%;
     margin-right: 20%;
+    background-color: white;
+    display: inline-flex;
 }
 
 #sidebar {
